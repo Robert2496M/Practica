@@ -1,0 +1,89 @@
+/* 
+    Created on : 30 sep. 2023, 11:04:37
+    Author     : Roberto Murillo
+*/
+
+body{
+    background-color: #99ccff;
+}
+/*
+h1{
+    text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+}
+/*
+p{
+   color: navy;
+   font-size: 1em;
+   word-spacing: 0.4em;
+   text-align: center;
+}
+
+header{
+    background-color: lightblue;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}*/
+
+.nav{
+       display: flex;
+       justify-content: space-between;
+       max-width: 992px;
+       margin: 0 auto;
+    }
+    
+    .nav-link{
+        color: black;
+        text-decoration: none;
+        
+    }
+    
+    .nav-menu{
+        display: flex;
+        margin-right: 20px;
+        list-style: none;
+    }
+    
+    .nav-menu-link{
+        font: 12px;
+        margin: 0 10px;
+        line-height: 90px;
+        width: max-content;
+    }
+    /* es [para que cambie de color cuando el cursor se pone sobre la palabra */
+    /*.nav-menu-link:hover{
+        background-color: #024070;
+        transition: 0.5;
+    }
+    /*para hacer redondeado el cuadro que cambia de color cuando se pone el cursor encima */
+    .nav-menu-link{
+        padding: 8px 12px;
+        borde-radius:10px;
+    }
+    
+    .logo{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 40px;
+        line-height: 50px;
+    }
+    
+    .img-containercen{
+        text-align: center;
+        display: block;
+    }
+   .celdaCentrada{
+        text-align: center;
+    }
+    
+    .celdaDerecha{
+        text-align: derecha;
+    }
